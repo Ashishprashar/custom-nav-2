@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1FD5B23C28A78711005407E5 /* custom_bottom_navigation2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5B23B28A78711005407E5 /* custom_bottom_navigation2App.swift */; };
+		1F3A108628AAB65700AE0900 /* icons8-close.svg in Resources */ = {isa = PBXBuildFile; fileRef = 1F3A108528AAB65700AE0900 /* icons8-close.svg */; };
+		1FD5B23C28A78711005407E5 /* Nav2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5B23B28A78711005407E5 /* Nav2App.swift */; };
 		1FD5B23E28A78711005407E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5B23D28A78711005407E5 /* ContentView.swift */; };
 		1FD5B24028A78713005407E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD5B23F28A78713005407E5 /* Assets.xcassets */; };
 		1FD5B24328A78713005407E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD5B24228A78713005407E5 /* Preview Assets.xcassets */; };
+		1FD5B24A28A7895C005407E5 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD5B24928A7895C005407E5 /* PieChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1FD5B23828A78711005407E5 /* custom_bottom_navigation2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = custom_bottom_navigation2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1FD5B23B28A78711005407E5 /* custom_bottom_navigation2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = custom_bottom_navigation2App.swift; sourceTree = "<group>"; };
+		1F3A108528AAB65700AE0900 /* icons8-close.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "icons8-close.svg"; sourceTree = "<group>"; };
+		1FD5B23828A78711005407E5 /* nav2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nav2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FD5B23B28A78711005407E5 /* Nav2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav2App.swift; sourceTree = "<group>"; };
 		1FD5B23D28A78711005407E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FD5B23F28A78713005407E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FD5B24228A78713005407E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FD5B24928A7895C005407E5 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +39,7 @@
 		1FD5B22F28A78711005407E5 = {
 			isa = PBXGroup;
 			children = (
-				1FD5B23A28A78711005407E5 /* custom_bottom_navigation2 */,
+				1FD5B23A28A78711005407E5 /* nav2 */,
 				1FD5B23928A78711005407E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +47,22 @@
 		1FD5B23928A78711005407E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1FD5B23828A78711005407E5 /* custom_bottom_navigation2.app */,
+				1FD5B23828A78711005407E5 /* nav2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1FD5B23A28A78711005407E5 /* custom_bottom_navigation2 */ = {
+		1FD5B23A28A78711005407E5 /* nav2 */ = {
 			isa = PBXGroup;
 			children = (
-				1FD5B23B28A78711005407E5 /* custom_bottom_navigation2App.swift */,
+				1FD5B23B28A78711005407E5 /* Nav2App.swift */,
 				1FD5B23D28A78711005407E5 /* ContentView.swift */,
 				1FD5B23F28A78713005407E5 /* Assets.xcassets */,
+				1F3A108528AAB65700AE0900 /* icons8-close.svg */,
 				1FD5B24128A78713005407E5 /* Preview Content */,
+				1FD5B24928A7895C005407E5 /* PieChartView.swift */,
 			);
-			path = custom_bottom_navigation2;
+			path = nav2;
 			sourceTree = "<group>";
 		};
 		1FD5B24128A78713005407E5 /* Preview Content */ = {
@@ -70,9 +76,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1FD5B23728A78711005407E5 /* custom_bottom_navigation2 */ = {
+		1FD5B23728A78711005407E5 /* nav2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FD5B24628A78713005407E5 /* Build configuration list for PBXNativeTarget "custom_bottom_navigation2" */;
+			buildConfigurationList = 1FD5B24628A78713005407E5 /* Build configuration list for PBXNativeTarget "nav2" */;
 			buildPhases = (
 				1FD5B23428A78711005407E5 /* Sources */,
 				1FD5B23528A78711005407E5 /* Frameworks */,
@@ -82,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = custom_bottom_navigation2;
+			name = nav2;
 			productName = custom_bottom_navigation2;
-			productReference = 1FD5B23828A78711005407E5 /* custom_bottom_navigation2.app */;
+			productReference = 1FD5B23828A78711005407E5 /* nav2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1FD5B23328A78711005407E5 /* Build configuration list for PBXProject "custom_bottom_navigation2" */;
+			buildConfigurationList = 1FD5B23328A78711005407E5 /* Build configuration list for PBXProject "nav2" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1FD5B23728A78711005407E5 /* custom_bottom_navigation2 */,
+				1FD5B23728A78711005407E5 /* nav2 */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F3A108628AAB65700AE0900 /* icons8-close.svg in Resources */,
 				1FD5B24328A78713005407E5 /* Preview Assets.xcassets in Resources */,
 				1FD5B24028A78713005407E5 /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FD5B24A28A7895C005407E5 /* PieChartView.swift in Sources */,
 				1FD5B23E28A78711005407E5 /* ContentView.swift in Sources */,
-				1FD5B23C28A78711005407E5 /* custom_bottom_navigation2App.swift in Sources */,
+				1FD5B23C28A78711005407E5 /* Nav2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +274,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"custom_bottom_navigation2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"nav2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +302,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"custom_bottom_navigation2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"nav2/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -318,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1FD5B23328A78711005407E5 /* Build configuration list for PBXProject "custom_bottom_navigation2" */ = {
+		1FD5B23328A78711005407E5 /* Build configuration list for PBXProject "nav2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FD5B24428A78713005407E5 /* Debug */,
@@ -327,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FD5B24628A78713005407E5 /* Build configuration list for PBXNativeTarget "custom_bottom_navigation2" */ = {
+		1FD5B24628A78713005407E5 /* Build configuration list for PBXNativeTarget "nav2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1FD5B24728A78713005407E5 /* Debug */,
